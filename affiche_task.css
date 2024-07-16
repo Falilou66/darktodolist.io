@@ -1,0 +1,50 @@
+*{
+    position: relative;
+    left: 0;
+    /* display: inline-block; */
+}
+
+a{
+    padding: 3px;
+	background: #0f0;
+	color: #000;
+	font-weight: 600;
+	font-size: 1em;
+	letter-spacing: 0.05em;
+	cursor: pointer;
+    text-decoration: none;
+    border-radius: 5px;
+}
+.une_tache{
+    position:relative;
+    width:70%;
+    display: inline-block;
+}
+.desc{
+    position: relative;
+	width: 100%;
+	background: #333;
+	border: none;
+	outline: none;
+	padding: 25px 10px 7.5px;
+	border-radius: 4px;
+	color: #fff;
+	font-weight: 500;
+	font-size: 1em;
+}
+
+.desc{
+    
+}
+i{
+    position: absolute;
+	left: 0;
+	padding: 15px 10px;
+	font-style: normal;
+	color: #aaa;
+	transition: 0.5s;
+	pointer-events: none;
+    transform: translateY(-7.5px);
+	font-size: 0.8em;
+	
+}
